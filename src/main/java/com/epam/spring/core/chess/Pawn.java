@@ -1,10 +1,12 @@
 package com.epam.spring.core.chess;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 @Component
 @Order(6)
+@Primary
 public class Pawn implements Chessman{
     private final String name;
     private final String cost;
