@@ -11,7 +11,7 @@ public class OtherBeanConsumerA {
 
     @Autowired
     public OtherBeanConsumerA(@Qualifier("otherBeanA") OtherBeanA otherBeanA) {
-        System.out.println("OtherBeanConsumerA constructor.");
+        System.out.println("\tOtherBeanConsumerA constructor.");
         this.otherBeanA = otherBeanA;
     }
 

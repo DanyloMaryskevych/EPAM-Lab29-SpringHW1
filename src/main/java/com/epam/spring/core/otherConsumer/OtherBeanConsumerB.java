@@ -9,7 +9,7 @@ public class OtherBeanConsumerB {
     private OtherBeanB otherBeanB;
 
     public OtherBeanConsumerB() {
-        System.out.println("OtherBeanConsumerB constructor.");
+        System.out.println("\tOtherBeanConsumerB constructor.");
     }
 
     public OtherBeanB getOtherBeanB() {
